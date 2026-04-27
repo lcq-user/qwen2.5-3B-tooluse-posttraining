@@ -340,3 +340,10 @@ python scripts/eval/score_predictions.py \
 2. `BFCL-style preference` 是根据现有训练数据构造的近似偏好信号，不是官方 BFCL 训练集，因此对 benchmark 的拟合仍然有限。
 3. 当前 `BFCL` 评测使用的是本项目的 strict evaluator，虽然已经覆盖主干 subset，但 `live_relevance` 与 `multi_turn_*` 仍未纳入严格自动评分。
 
+## 11. 参考资料
+
+- **Berkeley Function Calling Leaderboard (BFCL)**: [Gorilla-OpenSource/Berkeley-Function-Calling-Leaderboard](https://huggingface.co/datasets/Gorilla-OpenSource/Berkeley-Function-Calling-Leaderboard)
+- **When2Call**: [When2Call: Leveraging User Feedback to Improve Function Calling in LLMs](https://arxiv.org/abs/2405.16115)
+- **xLAM (APIGen)**: [APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets](https://arxiv.org/abs/2406.18518)
+- **Qwen2.5**: [Qwen2.5 官方博客](https://qwenlm.github.io/blog/qwen2.5/)
+
